@@ -75,7 +75,9 @@ println(x_round)
 ここでは, 例としてワイブル分布をプロットする.
 
 ワイブル分布は,
-$$f(t)=\dfrac{m}{\eta}\left(\dfrac{t}{\eta}\right)^{m-1}\exp \left\{-\left(\dfrac{t}{\eta}\right)^{m}\right\}$$
+```math
+f(t)=\dfrac{m}{\eta}\left(\dfrac{t}{\eta}\right)^{m-1}\exp \left\{-\left(\dfrac{t}{\eta}\right)^{m}\right\}
+```
 で表される確率分布を持つ.
 なお, $m$ は形状パラメータ, $\eta$ は尺度パラメータである. 
 
