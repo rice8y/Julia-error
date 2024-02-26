@@ -94,13 +94,10 @@ end
 
 t = 0:0.01:25
 
-plot(t, f.(t, 0.5, 10), xlabel=L"t", ylabel=L"f(t)", title="Weibull distribution (\$η=10\$)", ylims=(-0.01, 0.2), label=L"m=0.5")
+plot(t, f.(t, 0.5, 10), xlabel=L"t", ylabel=L"f(t)", title="Weibull distribution (\$η=10\$)", ylims=(-0.01, 0.2), label=L"m=0.5", dpi=300)
 plot!(t, f.(t, 1, 10), label=L"m=1")
 plot!(t, f.(t, 2, 10), label=L"m=2")
 plot!(t, f.(t, 5, 10), label=L"m=5")
-
-savefig("weibull.png")
-
 ```
 
 以下に実行例を示す. 
