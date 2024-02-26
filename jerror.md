@@ -104,5 +104,6 @@ plot!(t, f.(t, 5, 10), label=L"m=5")
 
 以下に実行例を示す. 
 
-{: align="center"}
+<div align="center">
 ![weibull](weibull.png)
+</div>
