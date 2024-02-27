@@ -104,6 +104,6 @@ plot!(t, f.(t, 5, 10), label=L"m=5")
 
 以下に実行例を示す. 
 
-<div align="center" max-width: 65%;>
-<img src="weibull.png" alt="Weibull">
+<div align="center">
+  <img src="weibull.png" alt="Weibull">
 </div>
